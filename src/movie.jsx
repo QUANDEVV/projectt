@@ -31,15 +31,18 @@ const MovieList = () => {
       plot : "Horror",
       year: "2090"
     },
+    {
+      title: "Avengers",
+      poster: "https://images.unsplash.com/photo-1635863138275-d9b33299680b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aXJvbiUyMG1hbnxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
+      plot : "Horror",
+      year: "2090"
+    },
   ];
 
   return (
     <div className='movie-list'>
       {movies.map(movie => (
-        <MovieCard movie={movie}
-
-
-        />
+        <MovieCard movie={movie} />
       ))}
     </div>
   );
