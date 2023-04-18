@@ -1,18 +1,18 @@
 import './App.css';
 import Movie from './movie';
+import Footer from './footer';
+import Header from './Header';
 
-function App() {
+
+function App( ) {
  
     return (
-    <div className="App">
-      <header className="App-header">
-      <p>MOVIE LANDING PAGE</p>
-      </header>
-
-      <Movie />
-
-      
-    </div>
+    <div className='App'>
+       <Header  />
+       <Movie  />
+       <Footer />
+       </div>
+    
   );
 }
 

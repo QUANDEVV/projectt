@@ -36,3 +36,27 @@
     transform: rotate(360deg);
   }
 }
+
+
+.Footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: #d8501a;
+  padding: 20px;
+  color: white;
+
+}
+
+
+
+.movie {
+  margin-left: 10px;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+  width: 200px;
+  height: 200px;
+}
+
